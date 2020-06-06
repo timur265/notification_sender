@@ -10,5 +10,6 @@ class App
     public function __construct($enteredArgs)
     {
         new ErrorHandler();
+        new Argument($enteredArgs);
     }
 }
